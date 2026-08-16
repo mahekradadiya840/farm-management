@@ -7,7 +7,7 @@ const createFarm = async (req, res) => {
 
         res.status(201).json({
             success: true,
-            message: "Farm added successfully",
+            message: "Farm data added successfully",
             data: farm
         });
 
